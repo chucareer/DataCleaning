@@ -16,52 +16,52 @@ These signals were used to estimate variables of the feature vector for each pat
   
     tBodyAccJerk-XYZ
   
-  tBodyGyro-XYZ
+    tBodyGyro-XYZ
   
-  tBodyGyroJerk-XYZ
+    tBodyGyroJerk-XYZ
   
-  tBodyAccMag
+    tBodyAccMag
   
-  tGravityAccMag
+    tGravityAccMag
   
-  tBodyAccJerkMag
+    tBodyAccJerkMag
   
-  tBodyGyroMag
+    tBodyGyroMag
   
-  tBodyGyroJerkMag
+    tBodyGyroJerkMag
   
-  fBodyAcc-XYZ
+    fBodyAcc-XYZ
   
-  fBodyAccJerk-XYZ
+    fBodyAccJerk-XYZ
   
-  fBodyGyro-XYZ
+    fBodyGyro-XYZ
   
-  fBodyAccMag
+    fBodyAccMag
   
-  fBodyAccJerkMag
+    fBodyAccJerkMag
   
-  fBodyGyroMag
+    fBodyGyroMag
   
-  fBodyGyroJerkMag
+    fBodyGyroJerkMag
   
-  angle: Angle between two vectors
+    angle: Angle between two vectors
   
 
 The set of variables that were estimated from these signals are: 
-  mean: Mean value
+    mean: Mean value
   
-  std: Standard deviation
+    std: Standard deviation
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle variable:
-  gravityMean
+    gravityMean
   
-  tBodyAccMean
+    tBodyAccMean
   
-  tBodyAccJerkMean
+    tBodyAccJerkMean
   
-  tBodyGyroMean
+    tBodyGyroMean
   
-  tBodyGyroJerkMean
+    tBodyGyroJerkMean
 
 All variables names excluding angle measurements are starting with measurement, following by estimates(mean/std) and direction if available. All angle variables are starting with angle, following by two vectors. Subject and activity are also included in the dataset.
 
