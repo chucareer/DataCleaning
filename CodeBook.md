@@ -30,15 +30,15 @@ These signals were used to estimate variables of the feature vector for each pat
   angle: Angle between two vectors
 
 The set of variables that were estimated from these signals are: 
-mean: Mean value
-std: Standard deviation
+  mean: Mean value
+  std: Standard deviation
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle variable:
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+  gravityMean
+  tBodyAccMean
+  tBodyAccJerkMean
+  tBodyGyroMean
+  tBodyGyroJerkMean
 
 All variables names excluding angle measurements are starting with measurement, following by estimates(mean/std) and direction if available. All angle variables are starting with angle, following by two vectors. Subject and activity are also included in the dataset.
 
