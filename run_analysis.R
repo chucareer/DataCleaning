@@ -43,4 +43,4 @@ names(tidyData)[c(1,2,89)] <- c("activity", "subject", "activityLabel")
 setwd("..")
 if(!file.exists("./tidyData")) {dir.create("./tidyData")}
 setwd("tidyData")
-write.csv(tidyData, file = "tidyData.csv")
+write.csv(tidyData, file = "tidyData.txt")
